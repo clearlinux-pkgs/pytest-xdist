@@ -4,7 +4,7 @@
 #
 Name     : pytest-xdist
 Version  : 1.13.1
-Release  : 8
+Release  : 9
 URL      : https://pypi.python.org/packages/source/p/pytest-xdist/pytest-xdist-1.13.1.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/pytest-xdist/pytest-xdist-1.13.1.tar.gz
 Summary  : py.test xdist plugin for distributed testing and loop-on-failing modes
