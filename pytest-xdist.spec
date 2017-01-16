@@ -4,7 +4,7 @@
 #
 Name     : pytest-xdist
 Version  : 1.15.0
-Release  : 14
+Release  : 15
 URL      : http://pypi.debian.net/pytest-xdist/pytest-xdist-1.15.0.tar.gz
 Source0  : http://pypi.debian.net/pytest-xdist/pytest-xdist-1.15.0.tar.gz
 Summary  : py.test xdist plugin for distributed testing and loop-on-failing modes
@@ -43,13 +43,15 @@ python components for the pytest-xdist package.
 
 %build
 export LANG=C
+export SOURCE_DATE_EPOCH=1484566842
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1484566842
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
-python3 -tt setup.py build -b py3 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
