@@ -4,7 +4,7 @@
 #
 Name     : pytest-xdist
 Version  : 1.18.2
-Release  : 27
+Release  : 28
 URL      : http://pypi.debian.net/pytest-xdist/pytest-xdist-1.18.2.tar.gz
 Source0  : http://pypi.debian.net/pytest-xdist/pytest-xdist-1.18.2.tar.gz
 Summary  : py.test xdist plugin for distributed testing and loop-on-failing modes
