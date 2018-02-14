@@ -1,0 +1,10 @@
+--- pytest-xdist-1.22.0/setup.py~	2018-01-11 20:10:40.000000000 +0000
++++ pytest-xdist-1.22.0/setup.py	2018-02-14 19:12:15.628571058 +0000
+@@ -1,6 +1,6 @@
+ from setuptools import setup, find_packages
+ 
+-install_requires = ['execnet>=1.1', 'pytest>=3.0.0', 'pytest-forked']
++install_requires = ['execnet>=1.1', 'pytest>=3.0.0']
+ 
+ 
+ setup(
