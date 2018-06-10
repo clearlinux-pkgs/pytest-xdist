@@ -4,7 +4,7 @@
 #
 Name     : pytest-xdist
 Version  : 1.22.2
-Release  : 34
+Release  : 35
 URL      : https://pypi.python.org/packages/5d/be/f3c5a5edf6161d17d90fe458281249bebb7aba1af076621a19b007d632fa/pytest-xdist-1.22.2.tar.gz
 Source0  : https://pypi.python.org/packages/5d/be/f3c5a5edf6161d17d90fe458281249bebb7aba1af076621a19b007d632fa/pytest-xdist-1.22.2.tar.gz
 Summary  : py.test xdist plugin for distributed testing and loop-on-failing modes
@@ -60,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1522380376
+export SOURCE_DATE_EPOCH=1528674960
 python3 setup.py build -b py3
 
 %install
