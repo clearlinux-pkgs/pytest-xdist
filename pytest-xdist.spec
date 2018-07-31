@@ -4,7 +4,7 @@
 #
 Name     : pytest-xdist
 Version  : 1.22.5
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/0b/10/e2037ce5ed623fc32b05e23fa97f4874412f29e60acf34ec5c6bad1b1ec6/pytest-xdist-1.22.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/10/e2037ce5ed623fc32b05e23fa97f4874412f29e60acf34ec5c6bad1b1ec6/pytest-xdist-1.22.5.tar.gz
 Summary  : pytest xdist plugin for distributed testing and loop-on-failing modes
@@ -15,6 +15,7 @@ Requires: pytest-xdist-license
 Requires: pytest-xdist-python
 Requires: execnet
 Requires: pytest
+Requires: pytest-forked
 Requires: six
 BuildRequires : buildreq-distutils3
 BuildRequires : execnet
@@ -65,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1533050369
+export SOURCE_DATE_EPOCH=1533056982
 python3 setup.py build -b py3
 
 %install
