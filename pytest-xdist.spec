@@ -4,7 +4,7 @@
 #
 Name     : pytest-xdist
 Version  : 1.32.0
-Release  : 71
+Release  : 72
 URL      : https://files.pythonhosted.org/packages/2f/4c/906cd21f4ca1afed6636de0a40d1ffdd64e8b6990223f0c2dd094cf8396a/pytest-xdist-1.32.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2f/4c/906cd21f4ca1afed6636de0a40d1ffdd64e8b6990223f0c2dd094cf8396a/pytest-xdist-1.32.0.tar.gz
 Summary  : pytest xdist plugin for distributed testing and loop-on-failing modes
