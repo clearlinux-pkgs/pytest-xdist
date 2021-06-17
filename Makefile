@@ -1,5 +1,5 @@
 PKG_NAME := pytest-xdist
-URL = https://files.pythonhosted.org/packages/40/5f/a5aeb0bcc8db09413117ad953dcf4e84dae8ceb604db0176aacdbcb6eca6/pytest-xdist-2.2.1.tar.gz
+URL = https://files.pythonhosted.org/packages/d8/2a/d6333010844cd3931a57d17ae1203d2404fee689704c3f9a665c31d7faae/pytest-xdist-2.3.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
