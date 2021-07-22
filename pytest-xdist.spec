@@ -4,7 +4,7 @@
 #
 Name     : pytest-xdist
 Version  : 2.3.0
-Release  : 87
+Release  : 88
 URL      : https://files.pythonhosted.org/packages/d8/2a/d6333010844cd3931a57d17ae1203d2404fee689704c3f9a665c31d7faae/pytest-xdist-2.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d8/2a/d6333010844cd3931a57d17ae1203d2404fee689704c3f9a665c31d7faae/pytest-xdist-2.3.0.tar.gz
 Summary  : pytest xdist plugin for distributed testing and loop-on-failing modes
